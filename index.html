@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 1rem 2rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav a {
+      color: #ddd;
+      margin-right: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: white;
+    }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      border-bottom: 2px solid #eee;
+      padding-bottom: 0.3rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+    audio {
+      margin-top: 1rem;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <nav>
+      <a href="#about">关于我</a>
+      <a href="#projects">项目</a>
+      <a href="#audio">音频</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>关于我</h2>
+      <p>你好，我是 <strong>cui-ruohui</strong>。这是我的个人作品集网站。</p>
+    </section>
+
+    <section id="projects">
+      <h2>项目</h2>
+      <ul>
+        <li>项目A - 描述文字</li>
+        <li>项目B - 描述文字</li>
+      </ul>
+    </section>
+
+    <section id="audio">
+      <h2>音频示例</h2>
+      <p>下面是一个演示音频：</p>
+      <audio controls preload="none">
+        <source src="assets/audio/demo.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 cui-ruohui. All rights reserved.
+  </footer>
+</body>
+</html>
